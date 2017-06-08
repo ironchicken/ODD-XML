@@ -8,7 +8,7 @@ schema.
 
 ## Licence
 
-Copyright (C) 2015, 2016 Richard Lewis
+Copyright (C) 2015-2017 Richard Lewis
 
 Author: Richard Lewis <richard@rjlewis.me.uk>
 
