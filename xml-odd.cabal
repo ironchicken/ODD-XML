@@ -1,0 +1,26 @@
+name: xml-odd
+version: 0.0.1
+synopsis: Work with One Document Does-it-all XML schema files in Haskell
+homepage: https://github.com/ironchicken/xml-odd
+author: Richard Lewis
+maintainer: richard@rjlewis.me.uk
+license: LGPL
+license-file: LICENSE
+copyright: (C) 2015-2017 Richard Lewis
+build-type: Simple
+cabal-version: >= 1.20
+extra-source-files: README.md
+
+library
+  build-depends: base >= 4.8 && < 5
+               , hxt >= 9.3.1.16 && < 9.4
+  exposed-modules: Text.XML.ODD
+                 , Text.XML.ODD.BootstrapTEI
+                 , Text.XML.ODD.DTD
+                 , Text.XML.ODD.Lenses
+                 , Text.XML.ODD.RelaxNG
+                 , Text.XML.ODD.Types
+                 , Text.XML.ODD.XMLSchema
+  hs-source-dirs: src
+  ghc-options: -O2 -Wall
+  default-language: Haskell2010
