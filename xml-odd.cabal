@@ -12,8 +12,8 @@ cabal-version: >= 1.20
 extra-source-files: README.md
 
 library
-  build-depends: base >= 4.8 && < 5
-               , hxt >= 9.3.1.16 && < 9.4
+  build-depends: base
+               , hxt
   exposed-modules: Text.XML.ODD
                  , Text.XML.ODD.BootstrapTEI
                  , Text.XML.ODD.DTD
